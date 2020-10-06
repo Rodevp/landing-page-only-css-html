@@ -13,6 +13,7 @@ html {
 :root {
     --font-color:	#00252e;
     --color-primary: 	#ebfbff;
+    --color-secondary: 	#ff52bf;
 }
 
 /*header*/
@@ -63,3 +64,84 @@ html {
     color: var(--font-color);
     font-weight: 700;
 }
+/*content*/
+main {
+    width: 100vw;
+    min-height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*content style generally*/
+.content {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__information {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__tittle {
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.content__paragraph {
+    width: 20rem;
+    height: 2.5rem;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.content__thumbnail_content {
+    width: 25rem;
+    height: 20rem;
+}
+
+.content__image {
+    width: 100%;
+    height: 100%;
+}
+/*content style generally*/
+
+/*section one*/
+.content__information--one {
+    height: 15rem;
+}
+
+.content__title--start-free, .content__paragraph--start-free {
+    margin-bottom: 15px;
+}
+
+.button--start_free {
+    width: 15rem;
+    height: 2.8rem;
+    border-radius: 25px;
+    background-color: var(--color-secondary);
+}
+
+.button__text--start_free {
+    width: 12rem;
+    min-width: 1.5rem;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+/*section one*/
