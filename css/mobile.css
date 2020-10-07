@@ -145,3 +145,18 @@ main {
     font-weight: 700;
 }
 /*section one*/
+/*section two*/
+.content__thumbnail_content--two {
+    order: -1;
+}
+/*section two*/
+/*section three*/
+.content__thumbnail_content--three {
+    order: -1;
+}
+/*section three*/
+/*section four*/
+.content__thumbnail_content--four {
+    order: -1;
+}
+/*section four*/
