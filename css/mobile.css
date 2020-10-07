@@ -11,7 +11,8 @@ html {
 }
 
 :root {
-    --font-color:	#00252e;
+    --black-color: #000000;
+    --back-color:	#00252e;
     --color-primary: 	#ebfbff;
     --color-secondary: 	#ff52bf;
 }
@@ -67,7 +68,7 @@ html {
 /*content*/
 main {
     width: 100vw;
-    min-height: 40rem;
+    min-height: 140rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,6 +119,10 @@ main {
 /*content style generally*/
 
 /*section one*/
+.content--one {
+    background-image: url('../images/bg-hero-mobile.svg');
+}
+
 .content__information--one {
     height: 15rem;
 }
@@ -145,18 +150,56 @@ main {
     font-weight: 700;
 }
 /*section one*/
-/*section two*/
-.content__thumbnail_content--two {
+
+/*section two, three, and four*/
+.content__thumbnail_content--two, .content__thumbnail_content--three,
+.content__thumbnail_content--four{
     order: -1;
 }
-/*section two*/
-/*section three*/
-.content__thumbnail_content--three {
-    order: -1;
+/*footer*/
+.footer {
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: var(--back-color);
 }
-/*section three*/
-/*section four*/
-.content__thumbnail_content--four {
-    order: -1;
+
+.footer__question {
+    width: 30rem;
+    height: 8rem;
+    background-color: var(--color-primary);
+    position: absolute;
+    z-index: 1;
+    left: 45px;
+    top: -20px;
+    border-radius: 5px;
 }
-/*section four*/
+.footer__title {
+    width: 25rem;
+    height: 6rem;
+    text-align: center;
+    color: var(--black-color);
+    padding: 14px;
+    margin: auto;
+}
+
+.button--footer {
+    width: 18rem;
+    height: 4rem;
+    background-color: var(--color-secondary);
+    margin: 5px 50px;
+    position: absolute;
+    top: 30px;
+    border-radius: 30px;
+}
+
+.button__text--footer {
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    margin: 10px 42px;
+    padding: 4px;
+    font-size: 1rem;
+}
