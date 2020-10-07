@@ -159,7 +159,7 @@ main {
 /*footer*/
 .footer {
     width: 100vw;
-    height: 20rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -168,7 +168,7 @@ main {
 
 .footer__question {
     width: 35rem;
-    height: 8rem;
+    height: 10rem;
     background-color: var(--color-primary);
     position: absolute;
     z-index: 1;
@@ -212,10 +212,70 @@ main {
 .footer__image_content {
     width: 16rem;
     height: 3rem;
+    margin-top: 15px;
     margin-left: 15px;
     background-color: var(--color-primary);
 }
+
 .footer__image {
     width: 100%;
     height: 100%;
+}
+
+.footer__contact {
+    width: 10rem;
+    height: 10rem;
+    margin: 10px 0 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    list-style: none;
+}
+.footer__phone, 
+.footer__email {
+    width: 35rem;
+    height: 4rem;
+    margin-bottom: 18px;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: var(--color-primary);
+}
+.footer__location {
+    width: 30rem;
+    height: 4rem;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: var(--color-primary);
+}
+
+.footer__logo_location, .footer__logo_phone,
+.footer__logo_email {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+}
+
+.footer__logo_location img, .footer__logo_phone img,
+.footer__logo_email img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__items {
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.footer__social_media {
+    width: 10rem;
+    background-color: blue;
+}
+
+.footer__social_media span {
+    width: 100px;
+    height: 20px;
+    display: block;
 }
