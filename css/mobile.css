@@ -15,12 +15,15 @@ html {
     --back-color:	#00252e;
     --color-primary: 	#ebfbff;
     --color-secondary: 	#ff52bf;
+    --font-header: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
 }
 
 /*header*/
 .header {
     width: 100vw;
     height: 5rem;
+    margin-bottom: 16px;
     position: sticky;
     top: 0;
     display: flex;
@@ -69,6 +72,7 @@ html {
 main {
     width: 100vw;
     min-height: 140rem;
+    margin-bottom: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,8 +101,10 @@ main {
 .content__tittle {
     width: 20rem;
     height: 2rem;
+    margin-bottom: 24px;
     text-align: center;
     font-size: 1.8rem;
+    font-family: var(--font-header);
 }
 
 .content__paragraph {
@@ -106,6 +112,8 @@ main {
     height: 2.5rem;
     margin: 10px auto;
     text-align: center;
+    font-family: var(--font-body);
+    font-weight: 400;
 }
 
 .content__thumbnail_content {
@@ -129,12 +137,13 @@ main {
 }
 
 .content__title--start-free, .content__paragraph--start-free {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .button--start_free {
     width: 15rem;
     height: 2.8rem;
+    margin: 18px 0;
     border-radius: 25px;
     background-color: var(--color-secondary);
 }
@@ -231,12 +240,13 @@ main {
     flex-direction: column;
     justify-content: left;
     list-style: none;
+    font-family: var(--font-body);
 }
 .footer__phone, 
 .footer__email {
     width: 35rem;
     height: 4rem;
-    margin-bottom: 18px;
+    margin-bottom: 0;
     font-size: 1.5rem;
     text-align: justify;
     color: var(--color-primary);
@@ -244,7 +254,7 @@ main {
 .footer__location {
     width: 30rem;
     height: 4rem;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 1.5rem;
     text-align: justify;
     color: var(--color-primary);
@@ -267,7 +277,7 @@ main {
     width: 10rem;
     height: 8rem;
     display: flex;
-    margin-bottom: 10px;
+    margin: 5px 0 30px 0;
     margin-left: 15px;
     flex-direction: column;
 
@@ -277,6 +287,7 @@ main {
     height: 2rem;
     margin-bottom: 5px;
     color: var(--color-primary);
+    font-family: var(--font-body);
 }
 .footer__social_media {
     width: 10rem;
@@ -301,9 +312,10 @@ main {
 }
 
 .footer__copyrigth {
-    width: 24rem;
+    width: 28rem;
     height: 2rem;
-    margin: 10px 80px;
+    margin: 10px 60px;
     color: var(--color-primary);
+    font-family: var(--font-body);
 }
 
