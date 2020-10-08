@@ -288,6 +288,7 @@ main {
     margin-bottom: 5px;
     color: var(--color-primary);
     font-family: var(--font-body);
+    font-size: 1.2rem;
 }
 .footer__social_media {
     width: 10rem;
@@ -310,6 +311,14 @@ main {
     border-radius: 50%;
     border: 1px solid var(--color-primary);
 }
+
+.footer__logo_social_media div {
+    color: var(--color-primary);
+    font-size: 2rem;
+    padding: 14px 15px;
+}
+
+
 
 .footer__copyrigth {
     width: 28rem;
