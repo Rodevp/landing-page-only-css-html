@@ -1,5 +1,8 @@
 # landing-page-only-css-html
 only css html,  methodology BEM
+
+# view web: https://rodevp.github.io/landing-page-only-css-html/
+
 # Front-end Style Guide
 
 ## Layout
