@@ -1,0 +1,25 @@
+@media (min-width: 1020px) {
+    main {
+        width: 1024px;
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+    .footer__information {
+        justify-content: space-around;
+    }
+    .footer__contact {
+        margin: 10px 0px 25px 15px;
+    }
+    .footer__items {
+        margin: 5px 0 0 0px;
+    }
+    .footer__social_media {
+        width: 22rem;
+    }
+    .footer__question {
+        left: 50rem;
+    }
+    .footer__image_content {
+        left: 160px;
+    }
+}
